@@ -68,7 +68,6 @@ class my{
                 }
             }
         }
-        die();
         $this->user_group=$user_group;
         // запускаем функцию с циклом для обхода всх записей
         $this->recursy();
