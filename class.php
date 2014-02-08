@@ -50,7 +50,6 @@ class my{
         $this->upd_no_sql();
         // Общее хранилище.
         // Данные о количестве людей с такимто именем
-        $this->mem->set('user_group',false);
         $user_group=$this->mem->get('user_group');
         
         if(!$user_group){
